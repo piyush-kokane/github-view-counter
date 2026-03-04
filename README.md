@@ -27,7 +27,7 @@ A self-hosted, fully customizable SVG view counter for your GitHub README. Built
 
 Add this to your GitHub profile `README.md`:
 ```markdown
-![](https://view-counter-livid.vercel.app/api?username=your-username)
+![](https://github-view-counter.vercel.app/api?username=your-username)
 ```
 
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ Add this to your GitHub profile `README.md`:
 
 Add this to your repository's `README.md`:
 ```markdown
-![](https://view-counter-livid.vercel.app/api?username=your-reponame)
+![](https://github-view-counter.vercel.app/api?username=your-reponame)
 ```
 
 > [!IMPORTANT]
@@ -97,14 +97,14 @@ Both **hex** and **rgba** are supported for all color parameters.
 
 > **Popular color themes:**
 > 
-> | Theme | Preview | color | bgColo |
-> |-------|---------|-------|--------|
-> | GitHub Blue | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=58a6ff&bgColor=rgba(56,139,253,0.1)) | `58a6ff` | `rgba(56,139,253,0.1)` |
-> | GitHub Green | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=3fb950&bgColor=rgba(46,160,67,0.1)) | `3fb950` | `rgba(46,160,67,0.1)` |
-> | GitHub Orange | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=f78166&bgColor=rgba(247,129,102,0.1)) | `f78166` | `rgba(247,129,102,0.1)` |
-> | GitHub Purple | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=bc8cff&bgColor=rgba(188,140,255,0.1)) | `bc8cff` | `rgba(188,140,255,0.1)` |
-> | White on Dark | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=ffffff&bgColor=rgba(30,30,30,0.9)) | `ffffff` | `rgba(30,30,30,0.9)` |
-> | Minimal Grey | ![](https://view-counter-livid.vercel.app/api?username=xyz&color=aaaaaa&bgColor=rgba(255,255,255,0.05)) | `aaaaaa` | `rgba(255,255,255,0.05)` |
+> | Theme | Preview | color | bgColor |
+> |-------|---------|-------|---------|
+> | GitHub Blue | ![](https://github-view-counter.vercel.app/api?username=xyz&color=58a6ff&bgColor=rgba(56,139,253,0.1)) | `58a6ff` | `rgba(56,139,253,0.1)` |
+> | GitHub Green | ![](https://github-view-counter.vercel.app/api?username=xyz&color=3fb950&bgColor=rgba(46,160,67,0.1)) | `3fb950` | `rgba(46,160,67,0.1)` |
+> | GitHub Orange | ![](https://github-view-counter.vercel.app/api?username=xyz&color=f78166&bgColor=rgba(247,129,102,0.1)) | `f78166` | `rgba(247,129,102,0.1)` |
+> | GitHub Purple | ![](https://github-view-counter.vercel.app/api?username=xyz&color=bc8cff&bgColor=rgba(188,140,255,0.1)) | `bc8cff` | `rgba(188,140,255,0.1)` |
+> | White on Dark | ![](https://github-view-counter.vercel.app/api?username=xyz&color=ffffff&bgColor=rgba(30,30,30,0.9)) | `ffffff` | `rgba(30,30,30,0.9)` |
+> | Minimal Grey | ![](https://github-view-counter.vercel.app/api?username=xyz&color=aaaaaa&bgColor=rgba(255,255,255,0.05)) | `aaaaaa` | `rgba(255,255,255,0.05)` |
 
 ---
 
@@ -114,9 +114,9 @@ Controls the shape and background of the badge (default: `rounded`).
 
 | Style | Preview | Usage |
 |-------|---------|-------|
-| `rounded` | ![](https://view-counter-livid.vercel.app/api?username=xyz&style=rounded) | `?style=rounded` |
-| `square` | ![](https://view-counter-livid.vercel.app/api?username=xyz&style=square) | `?style=square` |
-| `nobg` | ![](https://view-counter-livid.vercel.app/api?username=xyz&style=nobg) | `?style=nobg` |
+| `rounded` | ![](https://github-view-counter.vercel.app/api?username=xyz&style=rounded) | `?style=rounded` |
+| `square` | ![](https://github-view-counter.vercel.app/api?username=xyz&style=square) | `?style=square` |
+| `nobg` | ![](https://github-view-counter.vercel.app/api?username=xyz&style=nobg) | `?style=nobg` |
 | `invisible` | *(renders nothing)* | `?style=invisible` |
 
 > [!TIP]
@@ -130,9 +130,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Layout | Preview | Usage |
 |--------|---------|-------|
-| `horizontal` | ![](https://view-counter-livid.vercel.app/api?username=xyz&layout=horizontal) | `?layout=horizontal` |
-| `vertical` | ![](https://view-counter-livid.vercel.app/api?username=xyz&layout=vertical) | `?layout=vertical` |
-| `split` | ![](https://view-counter-livid.vercel.app/api?label=profile+views&username=xyz&layout=split) | `?layout=split` |
+| `horizontal` | ![](https://github-view-counter.vercel.app/api?username=xyz&layout=horizontal) | `?layout=horizontal` |
+| `vertical` | ![](https://github-view-counter.vercel.app/api?username=xyz&layout=vertical) | `?layout=vertical` |
+| `split` | ![](https://github-view-counter.vercel.app/api?label=profile+views&username=xyz&layout=split) | `?layout=split` |
 
 
 ---
@@ -143,9 +143,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Preview | Usage |
 |---------|-------|
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&label=visitors:) | `?label=visitors:` |
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&label=repo+views:) | `?label=repo+views:` |
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&label=profile+visits:) | `?label=profile+visits:` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&label=visitors:) | `?label=visitors:` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&label=repo+views:) | `?label=repo+views:` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&label=profile+visits:) | `?label=profile+visits:` |
 
 > [!NOTE]
 > Use `+` for spaces in the URL -- `eg: ?label=profile+views`
@@ -159,7 +159,7 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Preview | Usage |
 |---------|-------|
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&label=false) | `?label=false` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&label=false) | `?label=false` |
 
 ---
 
@@ -167,9 +167,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Color | Preview | Usage |
 |-------|---------|-------|
-| Orange | ![](https://view-counter-livid.vercel.app/api?username=xyz&labelColor=f78166) | `?label=f78166` |
-| Green | ![](https://view-counter-livid.vercel.app/api?username=xyz&labelColor=3fb950) | `?label=3fb950` |
-| Blue | ![](https://view-counter-livid.vercel.app/api?username=xyz&labelColor=58a6ff) | `?label=58a6ff` |
+| Orange | ![](https://github-view-counter.vercel.app/api?username=xyz&labelColor=f78166) | `?label=f78166` |
+| Green | ![](https://github-view-counter.vercel.app/api?username=xyz&labelColor=3fb950) | `?label=3fb950` |
+| Blue | ![](https://github-view-counter.vercel.app/api?username=xyz&labelColor=58a6ff) | `?label=58a6ff` |
 
 ---
 
@@ -179,7 +179,7 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Preview | Usage |
 |---------|-------|
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&icon=false) | `?icon=false` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&icon=false) | `?icon=false` |
 
 ---
 
@@ -187,9 +187,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | Color | Preview | Usage |
 |-------|---------|-------|
-| Orange | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconColor=f78166) | `?iconColor=f78166` |
-| Green | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconColor=3fb950) | `?iconColor=3fb950` |
-| Blue | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconColor=58a6ff) | `?iconColor=58a6ff` |
+| Orange | ![](https://github-view-counter.vercel.app/api?username=xyz&iconColor=f78166) | `?iconColor=f78166` |
+| Green | ![](https://github-view-counter.vercel.app/api?username=xyz&iconColor=3fb950) | `?iconColor=3fb950` |
+| Blue | ![](https://github-view-counter.vercel.app/api?username=xyz&iconColor=58a6ff) | `?iconColor=58a6ff` |
 
 ---
 
@@ -197,9 +197,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | iconSize | Preview | Usage |
 |----------|---------|-------|
-| `12` | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconSize=12) | `?iconSize=12` |
-| `16` *(default)* | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconSize=16) | `?iconSize=16` |
-| `24` | ![](https://view-counter-livid.vercel.app/api?username=xyz&iconSize=24) | `?iconSize=24` |
+| `12` | ![](https://github-view-counter.vercel.app/api?username=xyz&iconSize=12) | `?iconSize=12` |
+| `16` *(default)* | ![](https://github-view-counter.vercel.app/api?username=xyz&iconSize=16) | `?iconSize=16` |
+| `24` | ![](https://github-view-counter.vercel.app/api?username=xyz&iconSize=24) | `?iconSize=24` |
 
 ---
 
@@ -209,9 +209,9 @@ Controls the arrangement of the icon, label, and count (default: `horizontal`).
 
 | size | iconSize | Preview | Usage |
 |------|----------|---------|-------|
-| `11` | `13` | ![](https://view-counter-livid.vercel.app/api?username=xyz&size=11&iconSize=13) | `?size=11&iconSize=13` |
-| `13` *(default)* | `16` *(default)* | ![](https://view-counter-livid.vercel.app/api?username=xyz&size=13&iconSize=16) | `?size=13&iconSize=16` |
-| `16` | `20` | ![](https://view-counter-livid.vercel.app/api?username=xyz&size=16&iconSize=20) | `?size=16&iconSize=20` |
+| `11` | `13` | ![](https://github-view-counter.vercel.app/api?username=xyz&size=11&iconSize=13) | `?size=11&iconSize=13` |
+| `13` *(default)* | `16` *(default)* | ![](https://github-view-counter.vercel.app/api?username=xyz&size=13&iconSize=16) | `?size=13&iconSize=16` |
+| `16` | `20` | ![](https://github-view-counter.vercel.app/api?username=xyz&size=16&iconSize=20) | `?size=16&iconSize=20` |
 
 > [!NOTE]
 > `iconSize` scales the icon independently.
@@ -226,8 +226,8 @@ Shortens large numbers for a cleaner look. -- `eg: 1.000 → 1K`
 
 | Preview | Usage |
 |---------|-------|
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&abbreviated=false) | `?abbreviated=false` *(default)* |
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&abbreviated=true) | `?abbreviated=true` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&abbreviated=false) | `?abbreviated=false` *(default)* |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&abbreviated=true) | `?abbreviated=true` |
 
 ---
 
@@ -237,8 +237,8 @@ Add an offset to the real count. Useful when migrating from another counter and 
 
 | Preview | Usage |
 |---------|-------|
-| ![](https://view-counter-livid.vercel.app/api?username=xyz) | `?base=0` *(default)* |
-| ![](https://view-counter-livid.vercel.app/api?username=xyz&base=1000) | `?base=1000` |
+| ![](https://github-view-counter.vercel.app/api?username=xyz) | `?base=0` *(default)* |
+| ![](https://github-view-counter.vercel.app/api?username=xyz&base=1000) | `?base=1000` |
 
 ---
 

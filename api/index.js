@@ -61,7 +61,7 @@ module.exports = async (req, res) => {
   const style        = q.style                    || 'rounded'; // square | rounded | nobg | invisible
   const layout       = q.layout                   || 'horizontal'; // horizontal | vertical | split
 
-  const bgColor      = parseColor(q.bgColor)      || 'rgba(30, 130, 255, 0.9)';
+  const bgColor      = parseColor(q.bgColor)      || 'rgba(0, 150, 255, 0.6)';
   const labelBgColor = parseColor(q.labelBgColor) || 'rgba(80, 80, 80, 0.8)';
 
   // ─── Count ───────────────────────────────────────────────────────
