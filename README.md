@@ -70,12 +70,12 @@ Add this to your repository's `README.md`:
 | `iconColor` | same as `color` | Icon color (hex or rgba) |
 | `label` | `Profile views:` | Label text. Set to `false` to hide |
 | `labelColor` | same as `color` | Label text color |
-| `color` | `#aaaaaa` | Count text color (fallback for all colors) |
+| `color` | `#cccccc` | Count text color (fallback for all colors) |
 | `size` | `13` | Font size in pixels |
 | `style` | `rounded` | `rounded` · `square` · `nobg` · `invisible` |
 | `layout` | `horizontal` | `horizontal` · `vertical` · `split` |
-| `bgColor` | `rgba(255,255,255,0.08)` | Background color |
-| `labelBgColor` | `rgba(255,255,255,0.05)` | Left section color in `split` layout |
+| `bgColor` | `rgba(0, 156, 255, 0.8)` | Background color |
+| `labelBgColor` | `rgba(120, 120, 120, 0.8)` | Left section color in `split` layout |
 
 ---
 
